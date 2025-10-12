@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoilSense AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div style="font-size: 2.5rem;">🌱</div>
+            <h1>SoilSense AI</h1>
+            <p>Smart Soil Health Advisory for Kiambu Farmers</p>
+            <div style="margin-top: 1rem;">
+                <span
+                    style="background: #fef3c7; color: #92400e; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; margin: 0.5rem;">✓
+                    Trusted by 347+ Farmers</span>
+            </div>
+        </header>
+
+        <div class="stats-banner">
+            <div><span class="stat-number">347</span><br>Farmers Helped</div>
+            <div><span class="stat-number">1,240</span><br>Acres Improved</div>
+            <div><span class="stat-number">32%</span><br>Avg Yield Increase</div>
+            <div><span class="stat-number">KES 8.2M</span><br>Farmer Savings</div>
+        </div>
+
+        <div class="card">
+            <h2 style="color: #059669; margin-bottom: 1rem;">What Farmers Say</h2>
+
+            <div class="testimonial">
+                <p style="font-style: italic; margin-bottom: 1rem;">"My maize yield increased from 12 bags to 18 bags
+                    per acre after following SoilSense recommendations!"</p>
+                <p style="color: #059669; font-weight: bold;">John Kamau - Ruiru, Kiambu</p>
+            </div>
+
+            <div class="testimonial">
+                <p style="font-style: italic; margin-bottom: 1rem;">"Saved KES 15,000 this season by using the right
+                    fertilizers."</p>
+                <p style="color: #059669; font-weight: bold;">Mary Wanjiku - Githunguri</p>
+            </div>
+        </div>
+
+        <div id="formSection" class="card">
+            <h2 style="color: #059669; margin-bottom: 1rem;">Get Your Free Soil Health Report</h2>
+
+            <form id="soilForm">
+                <input type="text" id="farmerName" required placeholder="Your Name *">
+                <input type="tel" id="phone" placeholder="Phone Number">
+                <input type="text" id="location" required placeholder="Location (e.g., Ruiru)">
+                <input type="number" step="0.1" id="farmSize" required placeholder="Farm Size (acres) *">
+
+                <select id="crop" required>
+                    <option value="">-- Select Crop --</option>
+                    <option value="Maize">Maize</option>
+                    <option value="Beans">Beans</option>
+                    <option value="Kale">Kale (Sukuma Wiki)</option>
+                    <option value="Cabbage">Cabbage</option>
+                </select>
+
+                <h3 style="color: #059669; margin: 1rem 0;">Soil Test Results</h3>
+
+                <input type="number" step="0.1" id="ph" required min="4" max="8" placeholder="Soil pH (e.g., 5.5) *">
+
+                <select id="nitrogen" required>
+                    <option value="Low">Nitrogen: Low</option>
+                    <option value="Medium">Nitrogen: Medium</option>
+                    <option value="High">Nitrogen: High</option>
+                </select>
+
+                <select id="phosphorus" required>
+                    <option value="Low">Phosphorus: Low</option>
+                    <option value="Medium">Phosphorus: Medium</option>
+                    <option value="High">Phosphorus: High</option>
+                </select>
+
+                <button type="submit" class="btn">Get AI Recommendations (Free!)</button>
+            </form>
+        </div>
+
+        <div id="loadingSection" class="card hidden">
+            <h2 style="color: #059669; text-align: center;">Analyzing Your Soil...</h2>
+            <div class="loader"></div>
+        </div>
+
+        <div id="resultsSection" class="card hidden">
+            <h2 style="color: #059669; margin-bottom: 1rem;">🎉 Your Soil Health Plan</h2>
+
+            <div style="background: #f0fdf4; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem;">
+                <h3 style="color: #059669;">Analysis</h3>
+                <p id="analysisText" style="margin-top: 0.5rem; line-height: 1.6;"></p>
+            </div>
+
+            <div style="background: #f0fdf4; padding: 1.5rem; border-radius: 8px;">
+                <h3 style="color: #059669; margin-bottom: 1rem;">Recommended Products</h3>
+                <div id="productsContainer"></div>
+
+                <div style="margin-top: 1rem; padding-top: 1rem; border-top: 2px solid #10b981;">
+                    <p><strong>Total Cost:</strong> <span id="totalCost"
+                            style="color: #059669; font-size: 1.2rem;"></span></p>
+                    <p><strong>Expected Increase:</strong> <span id="yieldIncrease" style="color: #059669;"></span></p>
+                </div>
+            </div>
+
+            <button onclick="resetForm()" class="btn" style="margin-top: 1rem;">Test Another Farm</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
