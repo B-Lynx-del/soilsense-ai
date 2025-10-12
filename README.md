@@ -349,7 +349,7 @@ Validate impact with 50 farmers in Ruiru ward over 1 planting season (4 months)
 ### For Developers (Running Locally)
 ```bash
 # Clone the repository
-git clone https://github.com/praisebecklyn/soilsense-ai.git
+git clone https://github.com/B-Lynx-del/soilsense-ai.git
 
 # Navigate to project folder
 cd soilsense-ai
