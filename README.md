@@ -3,6 +3,7 @@
 ![SoilSense AI Banner](https://via.placeholder.com/1200x300/10b981/ffffff?text=SoilSense+AI+-+Empowering+Farmers+Through+Technology)
 
 **Live Demo:** [soilsense-kiambu.netlify.app](https://soilsense-kiambu.netlify.app)  
+**Live pitch deck presentation:**(https://gamma.app/docs/SoilSense-AI-87udhb82bamwkql)
 **Built by:** Praise Becklyn & Faith Mumbe  
 **Event:** Land ReGen Hackathon 2025  
 **Focus:** SDG 15 - Life on Land
