@@ -5,8 +5,8 @@
 **Live Demo:** [soilsense-kiambu.netlify.app](https://soilsense-kiambu.netlify.app)  
 **Pitch deck presentation:**(https://gamma.app/docs/SoilSense-AI-87udhb82bamwkql)
 
-**Built by:** Praise Becklyn & Faith Mumbe  
-**contacts**  faithmumbemuthiani@gmail.com,,
+**Built by:** Praise Becklyn
+**contacts** 
               becklynpraise@gmail.com
              
 
