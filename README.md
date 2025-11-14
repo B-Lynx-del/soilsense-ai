@@ -9,7 +9,7 @@
 **contacts**  faithmumbemuthiani@gmail.com,,
               becklynpraise@gmail.com
              
-**Event:** Land ReGen Hackathon 2025  
+
 **Focus:** SDG 15 - Life on Land
 
 ---
