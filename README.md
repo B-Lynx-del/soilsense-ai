@@ -3,8 +3,7 @@
 ![SoilSense AI Banner](https://via.placeholder.com/1200x300/10b981/ffffff?text=SoilSense+AI+-+Empowering+Farmers+Through+Technology)
 
 **Live Demo:** [soilsense-kiambu.netlify.app](https://soilsense-kiambu.netlify.app)  
-**Pitch deck presentation:**(https://gamma.app/docs/SoilSense-AI-87udhb82bamwkql)
-
+**Pitch deck presentation:**(https://gamma.app/docs/SoilSense-AI-87udhb82bamwkql?mode=doc)
 **Built by:** Praise Becklyn
 **contacts** 
               becklynpraise@gmail.com
