@@ -4,9 +4,11 @@
 
 **Live Demo:** [soilsense-kiambu.netlify.app](https://soilsense-kiambu.netlify.app)  
 **Pitch deck presentation:**(https://gamma.app/docs/SoilSense-AI-87udhb82bamwkql?mode=doc)
-**Built by:** Praise Becklyn
+**Built by:** Praise Becklyn & Faith Mumbe  
+
 **contacts** 
               becklynpraise@gmail.com
+              
              
 
 **Focus:** SDG 15 - Life on Land
